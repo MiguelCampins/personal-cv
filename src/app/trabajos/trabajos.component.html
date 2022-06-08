@@ -1,0 +1,16 @@
+<section>
+    <h2>Donde he trabajado!</h2>
+    <div class="container">
+        <div>
+            <ul>
+                <li *ngFor="let item of trabajosMenu"
+                    [routerLink]="item.ruta"
+                    routerLinkActive="active">
+                    {{item.texto}}
+            </ul>
+        </div>
+        <div class="desc-right">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</section>
