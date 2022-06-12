@@ -1,16 +1,16 @@
-<section>
+<section id="trabajos" data-aos="fade-zoom-in" data-aos-duration="3000" data-aos-delay="200">
     <h2>Donde he trabajado!</h2>
-    <div class="container">
-        <div>
-            <ul>
-                <li *ngFor="let item of trabajosMenu"
-                    [routerLink]="item.ruta"
-                    routerLinkActive="active">
-                    {{item.texto}}
-            </ul>
-        </div>
-        <div class="desc-right">
-            <router-outlet></router-outlet>
-        </div>
-    </div>
+    <p-tabView>
+        <p-tabPanel *ngFor="let trabajo of trabajos" [header]="trabajo.empresa">
+           <h3>{{trabajo.puesto}}</h3>
+           <p>{{trabajo.fecha}}</p>
+           <div>
+                <ul>
+                    <li><i class="pi pi-chevron-right"></i>{{trabajo.desc01}}</li>
+                    <li><i class="pi pi-chevron-right"></i>{{trabajo.desc02}}</li>
+                    <li><i class="pi pi-chevron-right"></i>{{trabajo.desc03}}</li>
+                </ul>
+           </div>
+        </p-tabPanel>
+    </p-tabView>
 </section>

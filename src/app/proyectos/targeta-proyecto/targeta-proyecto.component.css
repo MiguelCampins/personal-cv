@@ -1,0 +1,47 @@
+.targeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 1.75rem;
+    border-radius: 4px;
+    margin: 20px;
+    background-color: var(--surface-e);
+    width: 300px;
+}
+
+.targeta-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    margin-left: 20px;
+}
+
+.pi-folder {
+    font-size: 2rem;
+    color:  var(--primary-color);
+}
+
+.targeta-footer ul {
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0px;
+}
+
+.targeta-footer ul li {
+    margin-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 667px){
+   
+}

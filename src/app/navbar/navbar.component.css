@@ -42,6 +42,7 @@ ol li {
 ol li a {
     padding: 10px;
     transition: all 0.25s;
+    font-size: 17px;
 }
 
 ol li a:hover {
@@ -69,8 +70,53 @@ a {
     border-radius: 5px;
     padding: 0.55rem 1rem;
     transition: all 0.25s;
+    color: var(--primary-color);
+    font-size: 17px;
 }
 
 #btn-cv:hover {
     background-color: rgba(156, 107, 153, 0.1);
+}
+
+.topnav .pi {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen  and (max-width: 1040px){
+    .topnav .menu {
+        display: none;
+    }
+    .topnav .pi {
+        display: flex;
+    }
+    .topnav .menuOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        background-color: rgba(23,33,47, 0.9);
+        min-height: 100vh;
+        width: 300px;
+    }
+    .topnav .menuOpen ol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ol li a {
+        margin-bottom: 30px;
+    }
+
+    ol li a::before {
+        display: block;
+        text-align: center;
+    }
+
+    header {
+        padding: 0px 20px;
+    }
 }

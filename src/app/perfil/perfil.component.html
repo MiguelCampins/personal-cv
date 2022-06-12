@@ -1,4 +1,4 @@
-<section data-aos="fade-up" data-aos-duration="2000">
+<section id="about" data-aos="fade-zoom-in" data-aos-duration="3000" data-aos-delay="200">
     <h2>About Me</h2>
     <div class="container">
         <div>
@@ -21,17 +21,12 @@
                 </p>
             </div>
             <ul>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Angular</li>
-                <li>TypeScript</li>
-                <li>Node.js</li>
-                <li>Php</li>
+                <li *ngFor="let item of lenguajes"><i class="pi pi-chevron-right"></i>{{item}}</li>
             </ul>
         </div>
         <div class="container-foto">
             <div class="shadow-foto"></div> 
-            <img src="assets/foto.jpg" alt="img">
+            <div class="foto"><img src="assets/foto.jpg" alt="img"></div>
         </div>
     </div>
 </section>

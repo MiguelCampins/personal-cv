@@ -1,0 +1,58 @@
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0px;
+
+}
+
+h2:first-child {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--primary-color);
+}
+
+h2 {
+    color: rgb(228, 228, 228);
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    padding: 0px 300px;
+    margin: 3px;
+}
+
+a {
+    margin-top: 40px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all 0.25s;
+}
+
+a:hover {
+    background-color: rgba(156, 107, 153, 0.1);
+}
+
+
+@media screen and (max-width: 667px){
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    p {
+        padding: 0px;
+        text-align: center;
+    }
+}

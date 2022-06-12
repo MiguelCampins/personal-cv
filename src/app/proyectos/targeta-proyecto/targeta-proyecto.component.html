@@ -1,0 +1,20 @@
+<div class="targeta">
+    <header class="targeta-header">
+        <div class="iconos">
+            <div><a><i class="pi pi-folder"></i></a></div>
+            <div>
+                <a><i class="pi pi-github"></i></a>
+                <a><i class="pi pi-external-link"></i></a>
+            </div>
+        </div>
+        <h3>{{proyecto.nombre}}</h3>
+        <div>
+            <p>{{proyecto.desc}}</p>
+        </div>
+    </header>
+    <footer class="targeta-footer">
+        <ul>
+            <li *ngFor="let tec of proyecto.tecnologias">{{tec}}</li>
+        </ul>
+    </footer>
+</div>

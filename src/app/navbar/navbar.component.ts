@@ -3,12 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
 
-  items: string[] = ["About" , "Experience", "Work", "Contact"];
-  scrollDown:boolean = false;
+  navbarOpen: boolean = false;
+
+  handleMenu(){
+    this.navbarOpen = !this.navbarOpen;
+  }
 
   constructor() { }
 

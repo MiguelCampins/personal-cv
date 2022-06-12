@@ -1,6 +1,4 @@
-
 section {
-    margin: 0px 90px;
     padding: 120px 0px;
 }
 
@@ -11,12 +9,11 @@ h2 {
     margin: 10px 0px 40px;
     width: 100%;
     font-weight: 600;
-    color: rgb(228, 228, 228);
 }
 
 h2::before {
     position: relative;
-    counter-increment: section 2;
+    counter-increment: section 3;
     content: "0" counter(section) ".";
     margin-right: 10px;
     color: var(--primary-color);
@@ -27,51 +24,32 @@ h2::after {
     content: "";
     display: block;
     position: relative;
-    width: 300px;
+    width: 700px;
     height: 1px;
     margin-left: 20px;
     background-color: var(--text-color-secondary);
 }
 
-h3 {
-    font-weight: 600;
-    font-size: 25px;
-    margin-bottom: 6px;
-    color: var(--text-color-secondary);
-}
-
-p {
-    margin-top: 0px;
-    font-family: 'Courier New', Courier, monospace;
-    color: var(--text-color-secondary);
-}
-
 ul {
     list-style: none;
-}
-
-ul li {
-    margin-bottom: 6px;
-}
-
-div {
+    padding: 0px;
+    margin: 50px 0px 0px;
     display: flex;
-    align-items:  center;
-}
-
-.pi {
-    font-size: 0.5rem;
-    margin-right: 10px;
-    color: var(--primary-color);
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 667px){
-    h2::after {
-        width: 0px;
-        margin-left: 0px;
+    section{
+        display: flex;
+        flex-direction: column;
     }
 
-    section {
-        margin: 0px;
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2::after {
+        width: 0px;
     }
 }

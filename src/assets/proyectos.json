@@ -1,0 +1,21 @@
+
+[
+        {
+            "id": "01",
+            "nombre": "TicketClick",
+            "desc": "Aplicacion para la venta de entradas online",
+            "tecnologias": ["React","Node","Express"]
+        },
+        {
+            "id": "02",
+            "nombre": "TicketClick",
+            "desc": "Aplicacion para la venta de entradas online",
+            "tecnologias": ["React","Node","Express"]
+        },
+        {
+            "id": "03",
+            "nombre": "TicketClick",
+            "desc": "Aplicacion para la venta de entradas online",
+            "tecnologias": ["React","Node","Express"]
+        }
+]

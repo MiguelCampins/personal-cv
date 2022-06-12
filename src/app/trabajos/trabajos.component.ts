@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
-interface MenuItem {
-  texto: string;
-  ruta: string;
-}
+import TrabajosJson from '../../assets/trabajos.json';
+import { Trabajo } from './interfaces/trabajo.interface';
 
 @Component({
   selector: 'app-trabajos',
@@ -12,13 +9,7 @@ interface MenuItem {
 })
 export class TrabajosComponent implements OnInit {
 
-  trabajosMenu: MenuItem[] = [
-    {
-      texto: 'Ilutec',
-      ruta: './trabajos/ilutec'
-    },
-  ]
-
+  trabajos: Trabajo[] = TrabajosJson;
 
   constructor() { }
 

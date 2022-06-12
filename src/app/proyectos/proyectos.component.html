@@ -1,0 +1,8 @@
+<section id="proyectos">
+    <h2>Proyectos personales</h2>
+    <ul>
+        <li *ngFor="let proyecto of proyectos" data-aos="fade-up" data-aos-duration="2000">
+            <app-targeta-proyecto [proyecto] = "proyecto"></app-targeta-proyecto>
+        </li>
+    </ul>
+</section>

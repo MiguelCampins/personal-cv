@@ -35,3 +35,9 @@ a:hover {
     margin: 0px auto;
     background-color: var(--text-color-secondary);
 }
+
+@media screen and (max-width: 667px){
+  .right {
+    display: none;
+  }
+}
