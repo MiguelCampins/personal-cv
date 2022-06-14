@@ -3,19 +3,25 @@
         {
             "id": "01",
             "nombre": "TicketClick",
-            "desc": "Aplicacion para la venta de entradas online",
-            "tecnologias": ["React","Node","Express"]
+            "desc": "Proyecto final Desarrollo de Aplicaciones Web",
+            "tecnologias": ["React","Node","Express"],
+            "urlGit": "https://github.com/MiguelCampins/conciertos-frontend",
+            "url": "https://conciertos-frontend.vercel.app/"
         },
         {
             "id": "02",
-            "nombre": "TicketClick",
-            "desc": "Aplicacion para la venta de entradas online",
-            "tecnologias": ["React","Node","Express"]
+            "nombre": "Weather-App",
+            "desc": "Aplicación del tiempo en desarrollo",
+            "tecnologias": ["Angular","Bootstrap"],
+            "urlGit":"/#proyectos",
+            "url":"/#proyectos"
         },
         {
             "id": "03",
-            "nombre": "TicketClick",
-            "desc": "Aplicacion para la venta de entradas online",
-            "tecnologias": ["React","Node","Express"]
+            "nombre": "Game-App",
+            "desc": "Aplicación de videojuegos proximo proyecto",
+            "tecnologias": ["Angular","PrimeNg"],
+            "urlGit":"/#proyectos",
+            "url":"/#proyectos"
         }
 ]

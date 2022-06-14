@@ -32,3 +32,11 @@ p {
     margin: 20px 0px 0px;
     max-width: 590px;
 }
+
+
+@media screen and (max-width: 667px){
+   
+    section {
+        padding-bottom: 100px;
+    }
+}

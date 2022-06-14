@@ -5,4 +5,6 @@ export interface Proyecto {
     nombre: string;
     desc: string;
     tecnologias: string[];
+    url: string;
+    urlGit: string;
   }

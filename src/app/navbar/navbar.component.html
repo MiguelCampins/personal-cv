@@ -1,15 +1,17 @@
 <header id="header" class="animate__animated animate__backInDown animate__slow">
     <nav class="topnav">
         <div>
+            <a href="/#info">
             <img src="assets/icono.png" alt="img">
+            </a>
         </div>
         <div>
             <div class="menu" [ngClass]="{'menuOpen': navbarOpen}" >
             <ol>
-                <li><a href="/#about">Sobre mi</a></li>
-                <li><a href="/#trabajos">Experiencia</a></li>
-                <li><a href="/#proyectos">Proyectos</a></li>
-                <li><a href="/#contacto">Contacto</a></li>
+                <li><a (click)="handleMenu()" href="/#about">Sobre mi</a></li>
+                <li><a (click)="handleMenu()" href="/#trabajos">Experiencia</a></li>
+                <li><a (click)="handleMenu()" href="/#proyectos">Proyectos</a></li>
+                <li><a (click)="handleMenu()" href="/#contacto">Contacto</a></li>
             </ol>
             <a id="btn-cv" href="assets/cv.pdf" target="_blank">Curriculum</a>
             </div>
