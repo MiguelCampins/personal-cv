@@ -12,9 +12,9 @@
             "id": "02",
             "nombre": "Weather-App",
             "desc": "Aplicación del tiempo en desarrollo",
-            "tecnologias": ["Angular","Bootstrap"],
-            "urlGit":"/#proyectos",
-            "url":"/#proyectos"
+            "tecnologias": ["Angular","Html","CSS"],
+            "urlGit":"https://github.com/MiguelCampins/weather-app",
+            "url":"https://weather-app-six-phi.vercel.app/actual"
         },
         {
             "id": "03",
