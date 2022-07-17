@@ -11,7 +11,7 @@
         {
             "id": "02",
             "nombre": "Weather-App",
-            "desc": "Aplicación del tiempo en desarrollo",
+            "desc": "Aplicación del tiempo con API OpenWeather",
             "tecnologias": ["Angular","Html","CSS"],
             "urlGit":"https://github.com/MiguelCampins/weather-app",
             "url":"https://weather-app-six-phi.vercel.app/actual"

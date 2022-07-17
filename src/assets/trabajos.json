@@ -1,7 +1,7 @@
 [
     {
         "empresa": "Ilutec",
-        "puesto": "Tecnico de iluminacion",
+        "puesto": "Tecnico de iluminación",
         "fecha": "Mayo 2006 - Septiembre 2019 ",
         "desc01": "Responsable de preparar y cablear los sistemas de iluminación",
         "desc02": "Manejo y programación de consola de luces Avolites y GrandMA",
@@ -9,7 +9,7 @@
     },
     {
         "empresa": "Wozzo",
-        "puesto": "Programador en practicas",
+        "puesto": "Programador en prácticas",
         "fecha": "Abril - Junio 2021 ",
         "desc01": "Creación de aplicaciones web con React JS",
         "desc02": "Realización de peticiones a servidores vía REST",

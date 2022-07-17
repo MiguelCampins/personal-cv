@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfilComponent implements OnInit {
 
-  lenguajes: string[] = ["JavaScript","React","Angular","TypeScript","Node.js","Php"]
+  lenguajes: string[] = ["JavaScript","React","Angular","TypeScript","Node.js","PrimeNG"]
 
   constructor() { }
 

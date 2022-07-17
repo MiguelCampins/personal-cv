@@ -8,6 +8,12 @@
     margin: 20px;
     background-color: var(--surface-e);
     width: 300px;
+    transition: all 0.35s;
+}
+
+.targeta:hover {
+    background-color: #293b55;
+    transform: translateY(-10px);
 }
 
 .targeta-header {
